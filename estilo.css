@@ -12,11 +12,25 @@ img{
     justify-content: center;
     padding-top: 100px;
   }
+.cajitas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.precios{
+    display: flex;
+    width: 200px;
+    height: 20px;
+    align-items: center;
+    
+}
+
 .caja{
     width: 300px;
     height: 450px;
     justify-content: center;
 }
+
 .caja#text {
     padding-left: 30px;
     box-sizing: border-box;
@@ -25,6 +39,16 @@ img{
     background-color: rgb(243, 234, 227);
     border-radius: 25px 0px 0px 25px;
 }
+#cart img {
+    width: 200px;
+    height: 200px; 
+    transform: scale(0.1);
+    margin-left: 200px;
+}
+#agregar{
+    color: white;
+}
+
 #text{
     background-color: rgb(255, 255, 255);
     border-radius: 0px 25px 25px 0px;
@@ -33,13 +57,64 @@ h3{
     font-size: 14px;
     color: rgb(	167, 169, 178);
     font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
-h2 {
-    font-size: 35px;
+#titulo{
+    font-size: 33px;
     line-height: 1;
+    font-family: 'Fraunces', serif;
   }
-p{
-    font-size: 17px;
+#parrafo{
+    font-size: 14px;
     color: rgb(	167, 169, 178);
     line-height: 1.4    ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-bottom: 20px;
 }
+#precio_actual{
+    font-size: 35px;
+    line-height: 1;
+    font-family: 'Fraunces', serif;
+    color: rgb(61, 129, 104);
+    text-align: center;
+    margin-right: 15px;
+}
+#precio_antiguo {
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-decoration: line-through;
+    color: rgb(	155,	154,	161);
+}
+.boton{
+    background-color: rgb(61, 129, 104);
+    margin-top: 30px;
+    width: 235px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.boton2{
+    display: flex;
+    width: 150px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+#agregar {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 170px;
+}
+
+
